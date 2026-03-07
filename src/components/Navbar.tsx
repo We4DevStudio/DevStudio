@@ -31,8 +31,15 @@ const Navbar = () => {
       }`}
     >
       <div className="container-narrow flex items-center justify-between h-16 md:h-20">
-        <a href="#" className="text-xl font-bold gradient-text">
-          DevStudio
+        <a
+          href="#"
+          className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+        >
+          <img
+            src="/images/We4DevStudio.jpeg"
+            alt="We4DevStudio Logo"
+            className="h-10 md:h-12 object-contain"
+          />
         </a>
 
         {/* Desktop */}
