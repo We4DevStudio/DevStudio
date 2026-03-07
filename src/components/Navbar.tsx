@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "/images/We4DevStudio.jpeg";
 
 const navLinks = [
   { label: "Services", href: "#services" },
@@ -36,7 +37,7 @@ const Navbar = () => {
           className="flex items-center gap-2 hover:opacity-80 transition-opacity"
         >
           <img
-            src="/images/We4DevStudio.jpeg"
+            src={logoImage}
             alt="We4DevStudio Logo"
             className="h-10 md:h-12 object-contain"
           />
