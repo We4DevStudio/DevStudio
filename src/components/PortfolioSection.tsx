@@ -23,7 +23,7 @@ const projects = [
     desc: "A Netflix clone with user authentication, movie browsing, and watchlist features.",
     tags: ["React", "TypeScript", "HIPAA"],
     color: "from-primary/20 to-accent/20",
-    image: "/images/Screenshot 2026-03-07 220419.png",
+    image: "/images/Screenshot 2026-03-07 220708.png",
     link: "https://neewfliix.netlify.app/",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     desc: "High-performance online store with inventory management and analytics.",
     tags: ["Shopify", "React", "GraphQL"],
     color: "from-accent/20 to-primary/20",
-    image: "/images/Screenshot 2026-03-07 220708.png",
+    image: "/images/Screenshot 2026-03-07 220419.png ",
     link: "https://harsha8722.github.io/fasionstore/",
   },
 ];
