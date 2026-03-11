@@ -4,24 +4,17 @@ import { Button } from "@/components/ui/button";
 
 const plans = [
   {
-    name: "Starter Website",
-    price: "₹1,500",
-    desc: "Perfect for small businesses getting started online.",
-    features: ["5-page responsive website", "Contact form", "SEO basics", "Mobile optimized", "1 month support"],
+    name: "Basic Plan",
+    price: "₹1,000",
+    desc: "Clean and simple website for your online presence.",
+    features: ["Responsive design", "Contact form", "Basic SEO", "Mobile friendly", "1 month support"],
     popular: false,
   },
   {
-    name: "Business Website",
-    price: "₹3,500",
-    desc: "For growing businesses that need more functionality.",
-    features: ["10+ page website", "CMS integration", "Advanced SEO", "Analytics setup", "Blog system", "3 months support"],
-    popular: true,
-  },
-  {
-    name: "Custom Application",
-    price: "Custom",
-    desc: "Full-stack web applications tailored to your needs.",
-    features: ["Custom web app", "Database design", "API integration", "User authentication", "Admin dashboard", "6 months support"],
+    name: "Premium Plan",
+    price: "₹2,000",
+    desc: "Advanced features for growing your business.",
+    features: ["Custom pages", "Content management", "Advanced SEO", "Analytics integration", "3 months support"],
     popular: false,
   },
 ];
@@ -41,7 +34,7 @@ const PricingSection = () => (
         </h2>
       </motion.div>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 gap-6">
         {plans.map((plan, i) => (
           <motion.div
             key={plan.name}
