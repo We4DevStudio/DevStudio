@@ -4,11 +4,11 @@ import { ExternalLink } from "lucide-react";
 const projects = [
   {
     title: "Plants Showcasing",
-    desc: "Website to showcase various plants with details and care instructions.",
-    tags: ["React", "Node.js"],
+    desc: "Modern plant showcase website featuring detailed plant information, care instructions, and beautiful gallery. Built with responsive design and smooth user interactions.",
+    tags: ["React", "Tailwind CSS", "Framer Motion"],
     color: "from-primary/20 to-accent/20",
-    image: "/images/Screenshot 2026-03-07 215451.png",
-    link: "https://gardaning-plants.vercel.app/",
+    image: "/images/Screenshot 2026-03-11 155446.png",
+    link: "https://stark-gym-lovat.vercel.app/",
   },
   {
     title: "E-Commerce Shoe Store",
