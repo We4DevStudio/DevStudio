@@ -11,12 +11,12 @@ const projects = [
     link: "https://stark-gym-lovat.vercel.app/",
   },
   {
-    title: "E-Commerce Shoe Store",
-    desc: "Online store for purchasing shoes with a seamless shopping experience.",
-    tags: ["Next.js", "PostgreSQL", "Maps API"],
+    title: "Toffee",
+    desc: "Modern chat application with real-time messaging, user authentication, and beautiful UI. Features include private conversations, online status, and responsive design.",
+    tags: ["React", "Node.js", "Socket.io", "MongoDB"],
     color: "from-accent/20 to-primary/20",
-    image: "/images/Screenshot 2026-03-07 215736.png",
-    link: "https://frontend-shoe-app.vercel.app/",
+    image: "/images/toffee.png",
+    link: "https://toffee-talk.vercel.app/",
   },
   {
     title: "Netflix Clone",
