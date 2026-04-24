@@ -27,12 +27,12 @@ const projects = [
     link: "https://neewfliix.netlify.app/",
   },
   {
-    title: "E-commerce Fashion Store",
-    desc: "High-performance online store with inventory management and analytics.",
-    tags: ["Shopify", "React", "GraphQL"],
+    title: "AERO FITNESS",
+    desc: "Modern gym website with membership management, class scheduling, and fitness tracking. Features responsive design and smooth user interactions.",
+    tags: ["React", "Tailwind CSS", "Node.js"],
     color: "from-accent/20 to-primary/20",
-    image: "/images/Screenshot 2026-03-07 220419.png ",
-    link: "https://harsha8722.github.io/fasionstore/",
+    image: "/images/aerofitness.png",
+    link: "https://aero-fitness.vercel.app/",
   },
 ];
 
